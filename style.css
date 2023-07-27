@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.baselinear{
+    height: 35px;
+    background-color: aqua;
+}
+
+.pagina1{
+    height: 90vh;
+    width: 96vw; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.pagina1 h3{
+    margin-top: 15px;
+}
+.pagina1 input{
+    margin-top: 15px; 
+}
+.pagina1 p{
+    margin-top: 15px; 
+}
+.ingesos button{
+    border-radius: 15px;
+    height: 25px;
+    width: 80px;
+}
+.egresos button{
+    border-radius: 15px;
+    height: 25px;
+    width: 80px; 
+}
+.ingesos button:hover{
+    color:chartreuse;
+}
+.egresos button:hover{
+    color: chartreuse;
+}
+.ingesos input{
+    border-radius: 10px;
+    height: 25px;
+}
+.egresos input{
+    border-radius: 10px;
+    height: 25px; 
+} 
+.basebaja{
+    height: 35px;
+    background-color:aqua;
+}
+.pagina1{
+    border: 15px solid #022a36;
+}
